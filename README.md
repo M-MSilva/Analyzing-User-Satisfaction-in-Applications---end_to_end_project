@@ -40,52 +40,44 @@ The application is already running and it is not necessary to install anything o
 * [Pandas 1.4.1](https://pypi.org/project/pandas/1.4.1/);
 * [seaborn 0.11.2](https://pypi.org/project/seaborn/0.11.2/);
 * [numpy 1.22.2](https://pypi.org/project/numpy/1.22.2/);
-* [matplotlib 3.2.2](https://pypi.org/project/matplotlib/3.2.2/)
+* [matplotlib 3.2.2](https://pypi.org/project/matplotlib/3.2.2/);
 * [Streamlit 1.12.2](https://pypi.org/project/streamlit/1.12.2/);
-* [wordcloud: 1.8.2.2](https://pypi.org/project/matplotlib/1.8.2.2)
+* [wordcloud: 1.8.2.2](https://pypi.org/project/matplotlib/1.8.2.2);
 * [scikit-learn 1.0.2](https://pypi.org/project/scikit-learn/1.0.2);
-* [scikeras 0.8.0](https://pypi.org/project/scikeras/0.8.0/)
-* [nltk 3.7](https://pypi.org/project/nltk/3.7/)
-* [spacy 3.4.1](https://pypi.org/project/spacy/3.4.1/)
-* [tensorflow 2.8.2](https://pypi.org/project/tensorflow/2.8.2/)
-* [keras 2.8.0]()
+* [scikeras 0.8.0](https://pypi.org/project/scikeras/0.8.0/);
+* [nltk 3.7](https://pypi.org/project/nltk/3.7/);
+* [spacy 3.4.1](https://pypi.org/project/spacy/3.4.1/);
+* [tensorflow 2.8.2](https://www.tensorflow.org/install?hl=pt-br);
 
 
 ### Running the Code
 
-The installations of the libraries are already explained in the links above, but if you want to be in the same versions I do:
+
+As instalações das bibliotecas já estão explicadas nos links acima, digite o relatado abaixo para todas as biliotecas MENOS PARA TENSORFLOW E KERAS, para estas últimas siga os links recomentadados acima e use as mesmas versões que eu. Portanto, para as outras bibliotecas faça:
 
 ```bash
-pip install scikit-learn==1.0.2
+pip install Streamlit==1.12.2
 ```
-```bash
-pip install streamlit==1.6.0
-```
-```bash
-pip install numpy==1.22.2
-```
-```bash
-pip install scikeras==0.8.0
-```
-```bash
-pip install pandas==1.4.1
-```
-```bash
-pip install imblearn==0.0
-```
+ou seja para cada biblioteca acima citada com sua respectiva versão, basta digitar:
 
 ```bash
-pip install xgboost==0.90
+pip install "library name"=="library version"
 ```
-
-done, go to the Deploy folder and type:
+SEM AS ASPAS É CLARO. Feito, vá para a pasta Deploy e garanta que possui todos os arquivos que estão lá em sua máquina e faça:
 
 ```bash
-streamlit run PredictPointsWebAPP.py
+streamlit run main.py
 ```
 
+e veja o aplicativo rodando na sua máquina. :open_mouth:
 
-and see the application run on your machine. :open_mouth:
+voce pode também colocar todos estes arquivos da pasta deploy no google colab, instalar apenas o streamlit o e digitar:
+```bash
+!pip install Streamlit==1.12.2
+!streamlit run main.py & npx localtunnel --port 8501
+```
+
+e veja o aplicativo rodando nos google collab. :smirk: 
 
 
 ## Contributing
