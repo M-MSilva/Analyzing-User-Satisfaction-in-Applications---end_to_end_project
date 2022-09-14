@@ -14,28 +14,19 @@ O objetivo deste projeto é classificar se um usuário está satisfeito ou não 
 
 ## Applications 
 
-The current project can be used to help an athlete in his training to know how many points he would make based on some information, and it can also be used in competitions and betting. Although this program is part of my personal portfolio, feel free to use it for studies, repairs and improvements. :call_me_hand:
+Através desse projeto automatizamos a análise de feedback de usuários, como também somos capazes de usar tal aplicação, para criar a classificação de um aplicativo, quando o usuário não o faz, mas realiza apenas o comentário. A partir desse projeto poderemos no futuro criar um  gerenciamento de suporte ao cliente, com base em seu comentário. Aliás, meu projeto pode ser generalizado para ser usado em avaliações de chats, análises de respostas de pesquisas, pesquisa de mercado e acompanhar a reputação de aplicativos. :call_me_hand:
 
 ## Motivation
-This project was developed to be part of my personal portfolio and served both to test my skills and for my learning, since countless technologies could be used in it. Despite being an end-to-end project, it still needs some future improvements, such as having a larger and more diverse dataset. :smiley:
+Este projeto foi desenvolvido para fazer parte do meu portfólio pessoal e serviu tanto para testar minhas habilidades quanto para meu aprendizado, já que usamos inúmeras tecnologias nele. Apesar de ser um projeto de ponta a ponta, ainda precisa de algumas melhorias futuras, como ter um conjunto de dados maior e mais diversificado. :smiley:
 
 ## Functionalities
 
 ### Developed Web APPs:
 
-* Enter athlete data and the like;
-* Find out how many points an athlete would have.
+* Entre com o nome do aplicativo e realize o comentário;
+* descubra o nível de satisfação de um usuário;
+* Crie uma análise exploratória de dados contendo as palavras mais frequentes, os bigramas e as entidades nomeadas na crítica (caso a crítica for robusta e bem detalhada!);
 
-### Web APP included by Streamlit
-
-* Rerun;
-* Automatically update the app when the underlying code is updated;
-* Enable wide mode so the app takes up the entire width of the screen;
-* Choose by dark or light theme;
-* Record a video or audio of the screen;
-* Report a bug;
-* Get Help;
-* About.
 
 
 ## Instructions to run and/or compile the code
@@ -46,20 +37,18 @@ The application is already running and it is not necessary to install anything o
 
 ### Built With
 
-* [Pandas 1.4.1](https://pypi.org/project/pandas/);
-* [Imblearn 0.0](https://pypi.org/project/imblearn/);
+* [Pandas 1.4.1](https://pypi.org/project/pandas/1.4.1/);
 * [seaborn 0.11.2](https://pypi.org/project/seaborn/0.11.2/);
-* [pickle-mixin 1.0.2](https://pypi.org/project/pickle-mixin/);
-* [numpy 1.22.2](https://pypi.org/project/numpy/);
-* [Streamlit 1.6.0](https://pypi.org/project/streamlit/);
-* [scikit-learn 1.0.2](https://pypi.org/project/scikit-learn/);
-* [xgboost 0.90](https://pypi.org/project/xgboost/0.90/);
-* [Requests 2.27.1](https://pypi.org/project/requests/);
-* [Beautifulsoup 4.10.0](https://pypi.org/project/beautifulsoup4/).
-
-Hosted In:
-
-* heroku
+* [numpy 1.22.2](https://pypi.org/project/numpy/1.22.2/);
+* [matplotlib 3.2.2](https://pypi.org/project/matplotlib/3.2.2/)
+* [Streamlit 1.12.2](https://pypi.org/project/streamlit/1.12.2/);
+* [wordcloud: 1.8.2.2](https://pypi.org/project/matplotlib/1.8.2.2)
+* [scikit-learn 1.0.2](https://pypi.org/project/scikit-learn/1.0.2);
+* [scikeras 0.8.0](https://pypi.org/project/scikeras/0.8.0/)
+* [nltk 3.7](https://pypi.org/project/nltk/3.7/)
+* [spacy 3.4.1](https://pypi.org/project/spacy/3.4.1/)
+* [tensorflow 2.8.2](https://pypi.org/project/tensorflow/2.8.2/)
+* [keras 2.8.0]()
 
 
 ### Running the Code
@@ -76,7 +65,7 @@ pip install streamlit==1.6.0
 pip install numpy==1.22.2
 ```
 ```bash
-pip install pickle-mixin==1.0.2
+pip install scikeras==0.8.0
 ```
 ```bash
 pip install pandas==1.4.1
