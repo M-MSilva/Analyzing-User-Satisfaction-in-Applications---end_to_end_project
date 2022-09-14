@@ -1,14 +1,16 @@
+UNDER CONSTRUCTION
+
 # Analyzing-User-Satisfaction-in-Applications_end-to-end
 
 https://user-images.githubusercontent.com/92632851/190245479-a2556841-d559-44e8-b73b-9f96fc97bc0e.mp4
 
 ## Important notes about the project
 
-This project was built with numerous tools and technologies, this is a summary document. Therefore, if you want to obtain more statistical and computational information see [Google Colaboratory](https://github.com/M-MSilva/Predict-NBA-player-Points_End-to-end-Project/blob/master/Jupyter_Notebook_Projects/Predict_NBA_player_Points.ipynb), to read about the conclusions found about the project, analyze the [Report](https://github.com/M-MSilva/Predict-NBA-player-Points_End-to-end-Project/blob/master/Report/NBA_Project_M_MSilva.pdf). You can also access application created in [Web App]([https://predict-nba-player-points-mm.herokuapp.com/](https://m-msilva-predict-nba-player-po-deploypredictpointswebapp-5cybb6.streamlitapp.com/)) and see how I collected the data with [Web Scraping](https://github.com/M-MSilva/Predict-NBA-player-Points_End-to-end-Project/blob/master/Jupyter_Notebook_Projects/Web_Scraping_NBA.ipynb) :roll_eyes:.
+Este projeto foi construído com inúmeras ferramentas e tecnologias, este é um documento resumido. Portanto, se você deseja obter mais informações estatísticas e computacionais consulte [jupyter Notebook](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/jupyterNotebook/Analyzing_User_Satisfaction_in_ApplicationsNotebook.ipynb), para ler sobre as conclusões encontradas sobre o projeto, analise o [Report](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/Report/Report_Sentiment_Analysis__Marcos_Matheus.pdf), você também pode acessar o aplicativo criado em [Deploy](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/tree/main/Deploy). Meu objetivo inicial era criar um modelo para classificar o sentimento de um usuário como bom, neutro ou ruim, mas transformei o problema em binário (bom ou ruim). Não dividimos os labels em positivo, neutro e negativo, pois o código fica demasiado lento e ruim, já que devemos aplicar diversas técnicas para classificação multi classe, como por exemplo camadas Flatten e BatchNormalization. No vídeo acima uso o discurso de martin luther king para criar os gráficos fonte: [Discurso de Martin Luther King, Jr](https://www.americanrhetoric.com/speeches/mlkihaveadream.htm). :hugs:
 
 ## About this project
 
-The objective of this project is to predict the points of a basketball player, in addition we **answer some businesses questions** that are grounded on the jupyter notebook. Also, this is a complete project as we go through several steps of a usual data science project such as **web scraping** (data collection), feature engineering, data cleansing, data transformation, data visualization, data analysis, data, modeling and **cloud deployment**.
+O objetivo deste projeto é classificar se um usuário está satisfeito ou não com um aplicativo da google play, com base em seu comentário, ou seja, basicamente prevemos se o usuário gosta ou não de um aplicativo da google play através de seu comentário. Ademais, este é um projeto completo, pois passamos por várias etapas de um projeto usual de ciência de dados, como coleta de dados, engenharia de recursos, limpeza de dados, transformação de dados, visualização de dados, análise de dados, modelagem e implantação.
 
 ## Applications 
 
