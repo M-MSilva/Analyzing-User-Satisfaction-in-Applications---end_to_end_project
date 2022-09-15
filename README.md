@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/92632851/190245479-a2556841-d559-44e8-
 
 ## Important notes about the project
 
-This project was built with numerous tools and technologies, this is a summary document. So if you want more statistical and computational information see [jupyter Notebook](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/jupyterNotebook/Analyzing_User_Satisfaction_in_ApplicationsNotebook.ipynb), to read about the conclusions found about the project, review the [Report](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/Report/Report_Sentiment_Analysis__Marcos_Matheus.pdf), you can also access the application created in [Deploy](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/tree/main/Deploy ). My initial goal was to create a model to classify a user's sentiment as good, neutral or bad, but I turned the problem into a binary (good or bad). We don't split labels into positive, neutral and negative as the code becomes slow and bad as we must apply various multiclass classification techniques like Flatten layers and BatchNormalization. In the video above I use martin luther king's speech to create the font graphics: [Speech by Martin Luther King, Jr](https://www.americanrhetoric.com/speeches/mlkihaveadream.htm). :hugs:
+This project was built with numerous tools and technologies, this is a summary document. So if you want more statistical and computational information see [jupyter Notebook](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/jupyterNotebook/Analyzing_User_Satisfaction_in_ApplicationsNotebook.ipynb), to read about the conclusions found about the project, review the [Report](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/Report/Report_Sentiment_Analysis__Marcos_Matheus.pdf), you can also access the application created in [Deploy](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/tree/main/Deploy ). My initial goal was to create a model to classify a user's sentiment as good, neutral or bad, but I turned the problem into a binary (good or bad). We don't split labels into positive, neutral and negative as the code becomes slow and bad as we must apply various multiclass classification techniques like Flatten layers and BatchNormalization. In the video above I use martin luther king's speech to create the graphics. font: [Speech by Martin Luther King, Jr](https://www.americanrhetoric.com/speeches/mlkihaveadream.htm). :hugs:
 
 ## About this project
 
@@ -22,7 +22,7 @@ This project was developed to be part of my personal portfolio and it served bot
 ### Developed Web APPs:
 
 * Enter the application name and comment;
-* Discover a user's satisfaction with the app.;
+* Discover a user's satisfaction with the app;
 * Create an exploratory data analysis containing the most frequent words, bigrams and entities named in the review (if the review is robust and very detailed).
 
 
