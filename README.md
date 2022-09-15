@@ -1,5 +1,3 @@
-# UNDER CONSTRUCTION
-
 # Analyzing-User-Satisfaction-in-Applications_end-to-end
 
 https://user-images.githubusercontent.com/92632851/190245479-a2556841-d559-44e8-b73b-9f96fc97bc0e.mp4
