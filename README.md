@@ -6,26 +6,26 @@ https://user-images.githubusercontent.com/92632851/190245479-a2556841-d559-44e8-
 
 ## Important notes about the project
 
-Este projeto foi construído com inúmeras ferramentas e tecnologias, este é um documento resumido. Portanto, se você deseja obter mais informações estatísticas e computacionais consulte [jupyter Notebook](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/jupyterNotebook/Analyzing_User_Satisfaction_in_ApplicationsNotebook.ipynb), para ler sobre as conclusões encontradas sobre o projeto, analise o [Report](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/Report/Report_Sentiment_Analysis__Marcos_Matheus.pdf), você também pode acessar o aplicativo criado em [Deploy](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/tree/main/Deploy). Meu objetivo inicial era criar um modelo para classificar o sentimento de um usuário como bom, neutro ou ruim, mas transformei o problema em binário (bom ou ruim). Não dividimos os labels em positivo, neutro e negativo, pois o código fica demasiado lento e ruim, já que devemos aplicar diversas técnicas para classificação multi classe, como por exemplo camadas Flatten e BatchNormalization. No vídeo acima uso o discurso de martin luther king para criar os gráficos fonte: [Discurso de Martin Luther King, Jr](https://www.americanrhetoric.com/speeches/mlkihaveadream.htm). :hugs:
+This project was built with numerous tools and technologies, this is a summary document. So if you want more statistical and computational information see [jupyter Notebook](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/jupyterNotebook/Analyzing_User_Satisfaction_in_ApplicationsNotebook.ipynb), to read about the conclusions found about the project, review the [Report](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/Report/Report_Sentiment_Analysis__Marcos_Matheus.pdf), you can also access the application created in [Deploy](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/tree/main/Deploy ). My initial goal was to create a model to classify a user's sentiment as good, neutral or bad, but I turned the problem into a binary (good or bad). We don't divide the labels into positive, neutral and negative, because the code is too slow and bad, since we must apply several techniques for multi-class classification, such as Flatten and BatchNormalization layers. In the video above I use martin luther king's speech to create the font graphics: [Speech by Martin Luther King, Jr](https://www.americanrhetoric.com/speeches/mlkihaveadream.htm). :hugs:
 
 ## About this project
 
-O objetivo deste projeto é classificar se um usuário está satisfeito ou não com um aplicativo da google play, com base em seu comentário, ou seja, basicamente prevemos se o usuário gosta ou não de um aplicativo da google play através de seu comentário. Ademais, este é um projeto completo, pois passamos por várias etapas de um projeto usual de ciência de dados, como coleta de dados, engenharia de recursos, limpeza de dados, transformação de dados, visualização de dados, análise de dados, modelagem e implantação.
+The purpose of this project is to classify whether or not a user is satisfied with a google play app, based on their review, that is, we basically predict whether or not the user likes a google play app through their review. Furthermore, this is a complete project as we go through several steps of a usual data science project such as data collection, feature engineering, data cleansing, data transformation, data visualization, data analysis, modeling and deployment.
 
 ## Applications 
 
-Através desse projeto automatizamos a análise de feedback de usuários, como também somos capazes de usar tal aplicação, para criar a classificação de um aplicativo, quando o usuário não o faz, mas realiza apenas o comentário. A partir desse projeto poderemos no futuro criar um  gerenciamento de suporte ao cliente, com base em seu comentário. Aliás, meu projeto pode ser generalizado para ser usado em avaliações de chats, análises de respostas de pesquisas, pesquisa de mercado e acompanhar a reputação de aplicativos. :call_me_hand:
+Through this project we automate the analysis of user feedback, as we are also able to use such a project to create the classification of an application, when the user does not do so, but only performs the comment. From this project we will be able in the future to create a customer support management, based on your comment. In fact, my project can be generalized to be used in chat ratings, survey response analysis, market research, and tracking app reputation. :call_me_hand:
 
 ## Motivation
-Este projeto foi desenvolvido para fazer parte do meu portfólio pessoal e serviu tanto para testar minhas habilidades quanto para meu aprendizado, já que usamos inúmeras tecnologias nele. Apesar de ser um projeto de ponta a ponta, ainda precisa de algumas melhorias futuras, como ter um conjunto de dados maior e mais diversificado. :smiley:
+This project was developed to be part of my personal portfolio and it served both to test my skills and for my learning, since we used numerous technologies in it. Despite being an end-to-end project, it still needs some future improvements, such as having a larger and more diverse dataset. :smiley:
 
 ## Functionalities
 
 ### Developed Web APPs:
 
-* Entre com o nome do aplicativo e realize o comentário;
-* descubra o nível de satisfação de um usuário;
-* Crie uma análise exploratória de dados contendo as palavras mais frequentes, os bigramas e as entidades nomeadas na crítica (caso a crítica for robusta e bem detalhada!);
+* Enter the application name and comment;
+* Find out a user's satisfaction level;
+* Create an exploratory data analysis containing the most frequent words, bigrams and entities named in the review (if the review is robust and very detailed).
 
 
 
@@ -53,31 +53,31 @@ The application is already running and it is not necessary to install anything o
 ### Running the Code
 
 
-As instalações das bibliotecas já estão explicadas nos links acima, digite o relatado abaixo para todas as biliotecas MENOS PARA TENSORFLOW E KERAS, para estas últimas siga os links recomentadados acima e use as mesmas versões que eu. Portanto, para as outras bibliotecas faça:
+The installations of the libraries are already explained in the links above, type what is reported below for all libraries **EXCEPT FOR TENSORFLOW AND KERAS**, for the latter follow the links recommended above and use the same versions as me. So for the other libraries do:
 
 ```bash
 pip install Streamlit==1.12.2
 ```
-ou seja para cada biblioteca acima citada com sua respectiva versão, basta digitar:
+that is, for each library mentioned above with its respective version, just type:
 
 ```bash
 pip install "library name"=="library version"
 ```
-SEM AS ASPAS É CLARO. Feito, vá para a pasta Deploy e garanta que possui todos os arquivos que estão lá em sua máquina e faça:
+**WITHOUT THE QUOTES OF COURSE**. Done, go to the Deploy folder and ensure that you have all the files that are there on your machine, and residing in that folder do:
 
 ```bash
 streamlit run main.py
 ```
 
-e veja o aplicativo rodando na sua máquina. :open_mouth:
+and see the application running on your machine. :open_mouth:
 
-voce pode também colocar todos estes arquivos da pasta deploy no google colab, instalar apenas o streamlit o e digitar:
+you can also put all the files in the deploy folder in google colab, install just the streamlit o and type:
 ```bash
 !pip install Streamlit==1.12.2
 !streamlit run main.py & npx localtunnel --port 8501
 ```
 
-e veja o aplicativo rodando nos google collab. :smirk: 
+and see the application running on google collab. :smirk: 
 
 
 ## Contributing
@@ -94,10 +94,11 @@ Marcos Matheus de Paiva Silva
 
 ## Credits
 
-Web scraping was done from https://www.nbastuffer.com/player-stats/. The code written in Google Colaboratory was based on the steps of the book Aurelien Geron - hands on machine learning-2019. In addition, this code was developed based on everything I learned from: Jesse E.Agbe, Siddhardhan, Lucas Grassano Lattari, Shashank Kalanithi, Walisson Silva, Israel Dryer, Fernando Nakamuta,  Alex Freberg.
+The dataset we pulled from [kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps
+), but it was initially collected by user LAVANYA with its proper [licence](https://creativecommons.org/licenses/by/3.0/), in this dataset the changes made were, creating entities, cleaning and data transformation, creation of bigrams and the tokenization of words. The code written in Google Collaboratory was based on the steps of the book Aurelien Geron - hands on machine learning-2019. Also, this code was developed based on everything I learned from: Jesse E.Agbe, Siddhardhan, Lucas Grassano Lattari, Shashank Kalanithi, Walisson Silva, Israel Dryer, Fernando Nakamuta, Alex Freberg.
 
 
-## License
+## My License
 
 This project is licensed under the MIT License - see the file [LICENSE](LICENSE) for more details.
 
