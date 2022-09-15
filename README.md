@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/92632851/190245479-a2556841-d559-44e8-
 
 ## Important notes about the project
 
-This project was built with numerous tools and technologies, this is a summary document. So if you want more statistical and computational information see [jupyter Notebook](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/jupyterNotebook/Analyzing_User_Satisfaction_in_ApplicationsNotebook.ipynb), to read about the conclusions found about the project, review the [Report](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/Report/Report_Sentiment_Analysis__Marcos_Matheus.pdf), you can also access the application created in [Deploy](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/tree/main/Deploy ). My initial goal was to create a model to classify a user's sentiment as good, neutral or bad, but I turned the problem into a binary (good or bad). We don't divide the labels into positive, neutral and negative, because the code is too slow and bad, since we must apply several techniques for multi-class classification, such as Flatten and BatchNormalization layers. In the video above I use martin luther king's speech to create the font graphics: [Speech by Martin Luther King, Jr](https://www.americanrhetoric.com/speeches/mlkihaveadream.htm). :hugs:
+This project was built with numerous tools and technologies, this is a summary document. So if you want more statistical and computational information see [jupyter Notebook](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/jupyterNotebook/Analyzing_User_Satisfaction_in_ApplicationsNotebook.ipynb), to read about the conclusions found about the project, review the [Report](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/blob/main/Report/Report_Sentiment_Analysis__Marcos_Matheus.pdf), you can also access the application created in [Deploy](https://github.com/M-MSilva/Analyzing-User-Satisfaction-in-Applications---end_to_end_project/tree/main/Deploy ). My initial goal was to create a model to classify a user's sentiment as good, neutral or bad, but I turned the problem into a binary (good or bad). We don't split labels into positive, neutral and negative as the code becomes slow and bad as we must apply various multiclass classification techniques like Flatten layers and BatchNormalization. In the video above I use martin luther king's speech to create the font graphics: [Speech by Martin Luther King, Jr](https://www.americanrhetoric.com/speeches/mlkihaveadream.htm). :hugs:
 
 ## About this project
 
@@ -14,7 +14,7 @@ The purpose of this project is to classify whether or not a user is satisfied wi
 
 ## Applications 
 
-Through this project we automate the analysis of user feedback, as we are also able to use such a project to create the classification of an application, when the user does not do so, but only performs the comment. From this project we will be able in the future to create a customer support management, based on your comment. In fact, my project can be generalized to be used in chat ratings, survey response analysis, market research, and tracking app reputation. :call_me_hand:
+Through this project, we automate the analysis of user feedback, as we can also use such a project to create the classification of an application, when the user does not do it, but only makes the comment. From this project we will be able to create a customer support management in the future, based on your comment, by the way, my project can be generalized to be used in chat evaluations, analysis of survey responses, market research and inspection of app reputation. :call_me_hand:
 
 ## Motivation
 This project was developed to be part of my personal portfolio and it served both to test my skills and for my learning, since we used numerous technologies in it. Despite being an end-to-end project, it still needs some future improvements, such as having a larger and more diverse dataset. :smiley:
@@ -24,7 +24,7 @@ This project was developed to be part of my personal portfolio and it served bot
 ### Developed Web APPs:
 
 * Enter the application name and comment;
-* Find out a user's satisfaction level;
+* Discover a user's satisfaction with the app.;
 * Create an exploratory data analysis containing the most frequent words, bigrams and entities named in the review (if the review is robust and very detailed).
 
 
@@ -63,7 +63,7 @@ that is, for each library mentioned above with its respective version, just type
 ```bash
 pip install "library name"=="library version"
 ```
-**WITHOUT THE QUOTES OF COURSE**. Done, go to the Deploy folder and ensure that you have all the files that are there on your machine, and residing in that folder do:
+**WITHOUT THE QUOTES OF COURSE**. Ready, go to the Deploy folder and check if you have all the files that are there on your machine, and being in that folder do:
 
 ```bash
 streamlit run main.py
@@ -71,7 +71,7 @@ streamlit run main.py
 
 and see the application running on your machine. :open_mouth:
 
-you can also put all the files in the deploy folder in google colab, install just the streamlit o and type:
+you can also put all files from deploy folder in google colab, and finally just install streamlit and type:
 ```bash
 !pip install Streamlit==1.12.2
 !streamlit run main.py & npx localtunnel --port 8501
@@ -94,8 +94,7 @@ Marcos Matheus de Paiva Silva
 
 ## Credits
 
-The dataset we pulled from [kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps
-), but it was initially collected by user LAVANYA with its proper [licence](https://creativecommons.org/licenses/by/3.0/), in this dataset the changes made were, creating entities, cleaning and data transformation, creation of bigrams and the tokenization of words. The code written in Google Collaboratory was based on the steps of the book Aurelien Geron - hands on machine learning-2019. Also, this code was developed based on everything I learned from: Jesse E.Agbe, Siddhardhan, Lucas Grassano Lattari, Shashank Kalanithi, Walisson Silva, Israel Dryer, Fernando Nakamuta, Alex Freberg.
+The dataset we extracted from [kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps), but it was initially collected by the user LAVANYA with his due [licence](https://creativecommons.org/licenses/by/3.0/), in this dataset the changes made were, creation of entities, cleaning and data transformation, creation of bigrams and tokenization of words. The code was written in the Google Collaboratory based on the steps of the book Aurelien Geron - hands on machine learning-2019. Also, this code was developed based on everything I learned from: Jesse E.Agbe, Siddhardhan, Lucas Grassano Lattari, Shashank Kalanithi, Walisson Silva, Israel Dryer, Fernando Nakamuta, Alex Freberg.
 
 
 ## My License
